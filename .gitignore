@@ -1,18 +1,9 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
+# front
 front/node_modules/
 front/.pnp
 front/.pnp.js
-
-# testing
 front/coverage/
-
-# production
 front/build/
-
-# misc
-front/.DS_Store
 front/.env.local
 front/.env.development.local
 front/.env.test.local
@@ -21,3 +12,22 @@ front/.eslintcache
 front/npm-debug.log*
 front/yarn-debug.log*
 front/yarn-error.log*
+
+# back
+back/*.class
+back/*.log
+back/*.ctxt
+back/.mtj.tmp/
+back/*.jar
+back/*.war
+back/*.nar
+back/*.ear
+back/*.zip
+back/*.tar.gz
+back/*.rar
+back/hs_err_pid*
+back/.idea/
+back/target/
+back/*.iml
+
+*.DS_Store
