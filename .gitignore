@@ -26,8 +26,8 @@ back/*.zip
 back/*.tar.gz
 back/*.rar
 back/hs_err_pid*
-back/.idea/
 back/target/
 back/*.iml
 
 *.DS_Store
+*.idea/
