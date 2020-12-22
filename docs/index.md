@@ -33,6 +33,6 @@ Monter l’image de Raspbian sur votre carte SD grâce à Etcher
 
 Plus qu’à attendre !
 
-![Etcher1](Etcher1.jpg)
+![Etcher2](Etcher2.jpg)
 
 Une fois terminé vous pouvez insérer la carte SD sur la carte Raspberry Pi, brancher le cable Ethernet et l’alimentation pour le démarrer. Attendez un dizaine de minutes et rendez vous sur : https://app-38ba6f2f-f09b-4b49-982e-947344e0205c.cleverapps.io/.
