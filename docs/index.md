@@ -36,4 +36,4 @@ Plus qu’à attendre !
 
 ![Etcher2](Etcher2.jpg)
 
-Une fois terminé vous pouvez insérer la carte SD sur la carte Raspberry Pi, brancher le cable Ethernet de votre Raspberry à votre de box internet et l’alimentation pour le démarrer la carte. Attendez une dizaine de minutes et rendez vous sur : [https://app-38ba6f2f-f09b-4b49-982e-947344e0205c.cleverapps.io/](https://app-38ba6f2f-f09b-4b49-982e-947344e0205c.cleverapps.io/).
+Une fois terminé vous pouvez insérer la carte SD sur la carte Raspberry Pi, brancher le cable Ethernet de votre Raspberry à votre de box internet et l’alimentation pour démarrer la carte. Attendez une dizaine de minutes et rendez vous sur : [https://app-38ba6f2f-f09b-4b49-982e-947344e0205c.cleverapps.io/](https://app-38ba6f2f-f09b-4b49-982e-947344e0205c.cleverapps.io/).
