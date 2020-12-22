@@ -1,7 +1,7 @@
 [![download](rasp.png)](https://srv-store6.gofile.io/download/7LptnJ/Raspbetflix_archive.zip "Download")
 
 # Installer Raspbetflix sur le Raspberry Pi
-Vous avez votre Raspberry Pi et votre carte SD (supérieur à 15Go de staockage), très bien. Pour le début de ce guide, nous allons voir comment installer notre image pré-configurée sur votre carte SD.
+Vous avez votre Raspberry Pi et votre carte SD (supérieur à 15Go de stockage), très bien. Pour le début de ce guide, nous allons voir comment installer notre image pré-configurée sur votre carte SD.
 
 ## Installer Raspbetflix à partir d’une carte SD vierge
 
@@ -36,4 +36,4 @@ Plus qu’à attendre !
 
 ![Etcher2](Etcher2.jpg)
 
-Une fois terminé vous pouvez insérer la carte SD sur la carte Raspberry Pi, brancher le cable Ethernet et l’alimentation pour le démarrer. Attendez une dizaine de minutes et rendez vous sur : [https://app-38ba6f2f-f09b-4b49-982e-947344e0205c.cleverapps.io/](https://app-38ba6f2f-f09b-4b49-982e-947344e0205c.cleverapps.io/).
+Une fois terminé vous pouvez insérer la carte SD sur la carte Raspberry Pi, brancher le cable Ethernet de votre Raspberry à votre de box internet et l’alimentation pour le démarrer la carte. Attendez une dizaine de minutes et rendez vous sur : [https://app-38ba6f2f-f09b-4b49-982e-947344e0205c.cleverapps.io/](https://app-38ba6f2f-f09b-4b49-982e-947344e0205c.cleverapps.io/).
