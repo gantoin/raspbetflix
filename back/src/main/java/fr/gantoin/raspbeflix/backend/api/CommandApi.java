@@ -13,7 +13,10 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 
 import lombok.RequiredArgsConstructor;
 
@@ -22,6 +25,7 @@ import fr.gantoin.raspbeflix.backend.domain.CommandResponse;
 import fr.gantoin.raspbeflix.backend.domain.DiskFreeLine;
 import fr.gantoin.raspbeflix.backend.service.CommandService;
 import fr.gantoin.raspbeflix.backend.service.DiskFreeLineMapper;
+import fr.gantoin.raspbeflix.backend.service.VpnConfigurer;
 import fr.gantoin.raspbeflix.backend.service.ip.IpRouteService;
 
 @RestController
@@ -37,6 +41,9 @@ public class CommandApi {
 
     @Autowired
     private IpRouteService ipRouteService;
+
+    @Autowired
+    private VpnConfigurer vpnConfigurer;
 
     @PostMapping(value = "/command/exec", consumes = MediaType.APPLICATION_JSON_VALUE)
     public CommandResponse exec(@RequestBody String command) throws IOException {
@@ -59,8 +66,27 @@ public class CommandApi {
         return new CommandResponse(commandService.exec(CommandEnum.REBOOT.getCommand()));
     }
 
+    @GetMapping("/poweroff")
+    public CommandResponse poweroff() throws IOException {
+        return new CommandResponse(commandService.exec(CommandEnum.POWER_OFF.getCommand()));
+    }
+
     @GetMapping("/rasp-ip")
     public String getRaspIp() throws IOException {
         return ipRouteService.getRaspIp(commandService.exec(CommandEnum.IP_ROUTE.getCommand()));
     }
+
+    @GetMapping("/reset")
+    public void reset() throws IOException {
+        ipRouteService.getRaspIp(commandService.exec(CommandEnum.RESET.getCommand()));
+        ipRouteService.getRaspIp(commandService.exec(CommandEnum.REBOOT.getCommand()));
+    }
+
+    @PostMapping(value = "/vpn")
+    public CommandResponse uploadFile(@RequestPart MultipartFile file, @RequestParam String user, @RequestParam String password) throws IOException {
+        vpnConfigurer.storeVpnFile(file);
+        vpnConfigurer.storeVpnCredentials(user, password);
+        return new CommandResponse(List.of("You successfully uploaded " + file.getOriginalFilename() + "!"));
+    }
+
 }

@@ -12,8 +12,9 @@ public enum CommandEnum {
     REBOOT("sudo reboot"),
     DISK_FREE("df"),
     MY_PUBLIC_IP("wget -qO- http://ipecho.net/plain | xargs echo"),
-    IP_ROUTE("ip route | grep eth0");
+    IP_ROUTE("ip route | grep eth0"),
+    RESET("sudo rm ~/raspbetflix.txt");
 
     private final String command;
-    
+
 }

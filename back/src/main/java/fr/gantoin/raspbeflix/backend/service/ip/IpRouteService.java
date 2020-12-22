@@ -51,7 +51,6 @@ public class IpRouteService {
             List<String> exec = commandService.exec(CommandEnum.IP_ROUTE.getCommand());
             String myRaspIp = getRaspIp(exec);
             final String uri = "https://app-38ba6f2f-f09b-4b49-982e-947344e0205c.cleverapps.io/my-rasp/set-up/" + myRaspIp;
-            // final String uri = "http://192.168.1.45:8080/my-rasp/set-up/" + myRaspIp;
             RestTemplate restTemplate = new RestTemplate();
             HttpEntity<String> entity = new HttpEntity<>(new HttpHeaders());
             ResponseEntity<String> response = restTemplate.exchange(uri, HttpMethod.GET, entity, String.class);
