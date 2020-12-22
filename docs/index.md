@@ -6,7 +6,7 @@ Vous avez votre Raspberry Pi et votre carte SD (supérieur à 15Go de staockage)
 ## Installer Raspbetflix à partir d’une carte SD vierge
 
 ### Etape 1 : Télécharger la dernière version de Raspbetflix
-Vous pouvez trouver l’image en haut de cette page, en cliquant sur "Cliquez ici pour télécharger" ou bien en cliquant sur ce lien directement: https://srv-store6.gofile.io/download/7LptnJ/Raspbetflix_archive.zip. Le .zip fait environ 2Go et contient une image .iso de ~15 Go.
+Vous pouvez trouver l’image en haut de cette page, en cliquant sur "Cliquez ici pour télécharger" ou bien en cliquant sur ce lien directement: [https://srv-store6.gofile.io/download/7LptnJ/Raspbetflix_archive.zip](https://srv-store6.gofile.io/download/7LptnJ/Raspbetflix_archive.zip). Le .zip fait environ 2Go et contient une image .iso de ~15 Go.
 
 ### Etape 2 : Décompressez l’archive
 Décompressez l’archive que vous venez de télécharger. Vous allez avoir besoin d’un logiciel pour pouvoir décompresser le fichier :
@@ -20,7 +20,8 @@ Etcher est un logiciel qui va permettre d’installer Raspbetflix (ou n’import
 
 Il existe d’autres logiciels mais Etcher a l’avantage d’être compatible avec Mac, Windows, Linux et est recommandé par la fondation Raspberry Pi.
 
-Vous pouvez télécharger Etcher ici : https://www.balena.io/etcher/
+Vous pouvez télécharger Etcher ici : [https://www.balena.io/etcher/](https://www.balena.io/etcher/).
+
 
 ### Etape 4 : Insérez votre carte SD dans votre ordinateur et lancez Etcher
 
