@@ -8,6 +8,8 @@ import Info from './components/Info';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Command from './components/Command';
+import Vpn from './components/Vpn';
 
 
 class App extends React.Component {
@@ -33,7 +35,10 @@ class App extends React.Component {
                 <Link to="/disks">Mes disques</Link>
               </li>
               <li>
-                → Commandes
+                <Link to="/command">Commandes</Link>
+              </li>
+              <li>
+                <Link to="/vpn">Configuration VPN</Link>
               </li>
             </ul>
           </Col>
@@ -45,6 +50,12 @@ class App extends React.Component {
               </Route>
               <Route path="/disks">
                 <Disk />
+              </Route>
+              <Route path="/command">
+                <Command />
+              </Route>
+              <Route path="/vpn">
+                <Vpn />
               </Route>
             </Switch>
           </Col>

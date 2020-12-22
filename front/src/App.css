@@ -12,6 +12,15 @@
   padding: 15px;
 }
 
+.Commands {
+  list-style: none;
+  padding: 15px;
+}
+
+.Command {
+  text-align: center !important; 
+}
+
 .HomePage {
   padding: 15px;
 }
