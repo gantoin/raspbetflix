@@ -1,4 +1,4 @@
-[![download](rasp.png)](https://srv-store6.gofile.io/download/7LptnJ/Raspbetflix_archive.zip "Download")
+[![download](rasp.png)](https://drive.google.com/u/2/uc?export=download&confirm=I5I6&id=1Lw3pcb1qd_FrZ6Plh-j7mc0RLKXs96OM "Download")
 
 # Installer Raspbetflix sur le Raspberry Pi
 Vous avez votre Raspberry Pi et votre carte SD (supérieur à 15Go de stockage), très bien. Pour le début de ce guide, nous allons voir comment installer notre image pré-configurée sur votre carte SD.
@@ -6,7 +6,7 @@ Vous avez votre Raspberry Pi et votre carte SD (supérieur à 15Go de stockage),
 ## Installer Raspbetflix à partir d’une carte SD vierge
 
 ### Etape 1 : Télécharger la dernière version de Raspbetflix
-Vous pouvez trouver l’image en haut de cette page, en cliquant sur "Cliquez ici pour télécharger" ou bien en cliquant sur ce lien directement: [https://srv-store6.gofile.io/download/7LptnJ/Raspbetflix_archive.zip](https://srv-store6.gofile.io/download/7LptnJ/Raspbetflix_archive.zip). Le .zip fait environ 2Go et contient une image .iso de ~15 Go.
+Vous pouvez trouver l’image en haut de cette page, en cliquant sur "Cliquez ici pour télécharger" ou bien en cliquant sur ce lien directement: [https://drive.google.com/file/d/1Lw3pcb1qd_FrZ6Plh-j7mc0RLKXs96OM/view?usp=sharing](https://drive.google.com/file/d/1Lw3pcb1qd_FrZ6Plh-j7mc0RLKXs96OM/view?usp=sharing). Le .zip fait environ 2Go et contient une image .iso de ~15 Go.
 
 ### Etape 2 : Décompressez l’archive
 Décompressez l’archive que vous venez de télécharger. Vous allez avoir besoin d’un logiciel pour pouvoir décompresser le fichier :
