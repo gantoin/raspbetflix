@@ -1,5 +1,27 @@
 [![download](rasp.png)](https://drive.google.com/u/2/uc?export=download&confirm=I5I6&id=1Lw3pcb1qd_FrZ6Plh-j7mc0RLKXs96OM "Download")
 
+# Avoir un « Netflix » perso pour regarder ses films & séries
+## Voir vos films, vos séries et écoutez vos musiques téléchargés sur une interface propre et structurées pour ~ 50 euros
+Avec Raspbeflix vous installerez de façon automatisée sur un Raspberry Pi (un micro ordinateur) :
+- Un serveur Plex contenant tous vos films, séries, musiques, photos dans une interface propre et ergonomique. Plex ira récupérer les jaquettes et résumés des films/séries et proposera des filtres, des tris pour les retrouver facilement.
+- Un client web pour télécharger des torrents sur le Raspberry Pi depuis n’importe quel ordinateur.
+- [en cours de développement] Une connexion VPN sur le Raspberry Pi pour protéger vos connexions.
+
+## Matériel nécessaire
+
+- Une box fonctionnelle connectée à Internet avec un port Ethernet disponible pour le Raspberry Pi
+
+- Un Raspberry Pi 3 (ou plus)
+
+    - Le Raspberry Pi 3 Model B est conseillé, c’est celui qui est utilisé par Raspbetflix : [https://www.amazon.fr/...](https://www.amazon.fr/dp/B01CD5VC92/ref=pe_386181_40444391_TE_item)
+    - Je vous propose aussi de prendre ce kit : [https://www.amazon.fr/...](https://www.amazon.fr/dp/B01DDFFOYK/ref=pe_386181_40444391_TE_item) avec prise secteur, coque de protection et dissipateurs de chaleur
+- Un cable Ethernet
+- Un ordinateur MacOS, Linux ou Windows connecté sur le même réseau que le Raspberry Pi
+- Une carte MicroSD de 16Go minimum : [https://www.amazon.fr/...](https://www.amazon.fr/gp/product/B073K14CVB/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+- Une TV intelligente sur laquelle il est possible d'installer un client Plex (disponible sur la plupart des TV récentes: Samsung, Android TV, …), un téléphone avec l'App Plex si vous voulez regarder vos films sur Smartphone ou même sur votre ordinateur.
+- Un disque dur externe (1T conseillé ou plus) pouvant stocker les fichiers que vous allez exposer sur Plex
+  
+  
 # Installer Raspbetflix sur le Raspberry Pi
 Vous avez votre Raspberry Pi et votre carte SD (supérieur à 15Go de stockage), très bien. Pour le début de ce guide, nous allons voir comment installer notre image pré-configurée sur votre carte SD.
 
