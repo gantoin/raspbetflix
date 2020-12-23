@@ -1,7 +1,7 @@
 [![download](rasp.png)](https://drive.google.com/u/2/uc?export=download&confirm=I5I6&id=1Lw3pcb1qd_FrZ6Plh-j7mc0RLKXs96OM "Download")
 
 # Avoir un « Netflix » perso pour regarder ses films & séries
-## Voir vos films, vos séries et écoutez vos musiques téléchargés sur une interface propre et structurées pour ~ 50 euros
+## Voir vos films, vos séries et écoutez vos musiques téléchargés sur une interface propre et structurées pour ~50 euros
 Avec Raspbeflix vous installerez de façon automatisée sur un Raspberry Pi (un micro ordinateur) :
 - Un serveur Plex contenant tous vos films, séries, musiques, photos dans une interface propre et ergonomique. Plex ira récupérer les jaquettes et résumés des films/séries et proposera des filtres, des tris pour les retrouver facilement.
 - Un client web pour télécharger des torrents sur le Raspberry Pi depuis n’importe quel ordinateur.
